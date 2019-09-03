@@ -26,12 +26,12 @@ With this collection of postman API requests you can easily add the support filt
 6. Run `Create an installation`, `Add the device`, `Add a session` in that order. They will create everything needed for
    using public API, including RSA keys, session and installation tokens. For you reference all those values will be set
    in the environment.
-8. Run `Get push notification filters` to receive a list with you current push notification filters. You'll need this for the next step
-9. Take a look at the body of the `Update notification filters` request. Here you'll find an almost empty list of notification filters, only the `SUPPORT` filter is listed. Add all the filters from the previous step to this list and run the request. (See below for a sample with all notification filters active.)
-10. You're done, you should now have working push notifications for support! 
+7. Run `Get push notification filters` to receive a list with you current push notification filters. You'll need this for the next step
+8. Take a look at the body of the `Update notification filters` request. Here you'll find an almost empty list of notification filters, only the `SUPPORT` filter is listed. Add all the filters from the previous step to this list and run the request. (See below for a sample with all notification filters active.)
+9. You're done, you should now have working push notifications for support! 
 
 ### I don't know how JSON works...
-#### Just give me the whole list with filters that I can past into step 9.
+#### Just give me the whole list with filters that I can past into step 8.
 
 ```JSON
 {
